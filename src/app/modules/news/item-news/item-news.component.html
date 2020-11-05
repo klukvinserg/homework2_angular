@@ -1,0 +1,7 @@
+<div class="card" (click)="clickOnTheItem(item)">
+  <img src="https://www.latestfreestuff.co.uk/wp-content/uploads/2019/11/free-mcdonalds-fries.jpg" alt="MD" style="width:100%">
+  <h1>{{item.title}}</h1>
+  <p>Author: {{item.author}}</p>
+  <p><button routerLink="card/{{item.id}}" >More...</button></p>
+</div>
+
